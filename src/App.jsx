@@ -20,6 +20,9 @@ function App() {
     titulo: { 
       color: 'black',
     },
+    tit: { 
+      color: 'white',
+    },
     numero: {
       color: 'blue',
     },
@@ -38,7 +41,7 @@ function App() {
 
   return (
     <>
-      <h2>Boca de urnas</h2>
+      <h2 style={style.tit}>Boca de urnas</h2>
       <br />
       <div className="card" style={style.fondo}>
          <h3 style={style.titulo}>Candidato 1</h3>
